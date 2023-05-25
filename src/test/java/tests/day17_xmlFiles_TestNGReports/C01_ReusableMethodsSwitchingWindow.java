@@ -61,5 +61,7 @@ public class C01_ReusableMethodsSwitchingWindow {
         softAssert.assertAll();// bizim istedigimiz butun raporlari bize veriyor
 
         Driver.quitDriver();
+
+
     }
 }
