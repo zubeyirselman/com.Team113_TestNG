@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pages.QualitydemyPage;
 import utilities.ConfigReader;
 import utilities.Driver;
-import utilities.ReusableMethod;
+import utilities.ReusableMethods;
 
 public class C05_QualitydemyLoginTesti {
 
@@ -26,7 +26,7 @@ public class C05_QualitydemyLoginTesti {
 
         // login butonuna basin
         qualitydemyPage.cookiesAcceptElementi.click();
-        ReusableMethod.bekle(4);
+        ReusableMethods.bekle(4);
         qualitydemyPage.sonLoginButonuElementi.click();
 
         // basarili olarak giris yapildigini test edin

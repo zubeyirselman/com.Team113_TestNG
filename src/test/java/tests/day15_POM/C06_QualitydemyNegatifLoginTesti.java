@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pages.QualitydemyPage;
 import utilities.ConfigReader;
 import utilities.Driver;
-import utilities.ReusableMethod;
+import utilities.ReusableMethods;
 
 public class C06_QualitydemyNegatifLoginTesti {
 
@@ -25,7 +25,7 @@ public class C06_QualitydemyNegatifLoginTesti {
 
         // login butonuna basin
         qualitydemyPage.cookiesAcceptElementi.click();
-        ReusableMethod.bekle(4);
+        ReusableMethods.bekle(4);
         qualitydemyPage.sonLoginButonuElementi.click();
 
 
@@ -52,7 +52,7 @@ public class C06_QualitydemyNegatifLoginTesti {
 
         // login butonuna basin
         qualitydemyPage.cookiesAcceptElementi.click();
-        ReusableMethod.bekle(4);
+        ReusableMethods.bekle(4);
         qualitydemyPage.sonLoginButonuElementi.click();
 
 
@@ -79,7 +79,7 @@ public class C06_QualitydemyNegatifLoginTesti {
 
         // login butonuna basin
         qualitydemyPage.cookiesAcceptElementi.click();
-        ReusableMethod.bekle(4);
+        ReusableMethods.bekle(4);
         qualitydemyPage.sonLoginButonuElementi.click();
 
 

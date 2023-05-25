@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.Driver;
-import utilities.ReusableMethod;
+import utilities.ReusableMethods;
 
 public class C04_DriverIlkTest {
     @Test
@@ -36,7 +36,7 @@ public class C04_DriverIlkTest {
         String actualSonuc = sonucElementi.getText();
         Assert.assertTrue(actualSonuc.contains(expectedIcerik));
 
-        ReusableMethod.bekle(3);
+        ReusableMethods.bekle(3);
         Driver.closeDriver();
 
     }

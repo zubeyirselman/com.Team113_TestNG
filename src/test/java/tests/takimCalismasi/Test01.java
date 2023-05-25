@@ -5,7 +5,6 @@ import org.testng.asserts.SoftAssert;
 import pages.AutomationExercisePage;
 import utilities.ConfigReader;
 import utilities.Driver;
-import utilities.ReusableMethod;
 
 public class Test01 {
 

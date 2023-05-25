@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.QualitydemyPage;
 import utilities.Driver;
-import utilities.ReusableMethod;
+import utilities.ReusableMethods;
 
 public class C03_qualitydemyNegatifLoginTesti {
 
@@ -27,7 +27,7 @@ public class C03_qualitydemyNegatifLoginTesti {
 
         // login butonuna tiklayin
         qualitydemyPage.cookiesAcceptElementi.click();
-        ReusableMethod.bekle(4);
+        ReusableMethods.bekle(4);
         qualitydemyPage.sonLoginButonuElementi.click();
 
         // giris yapilamadigini test edin

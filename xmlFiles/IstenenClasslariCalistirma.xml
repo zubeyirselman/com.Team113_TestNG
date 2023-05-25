@@ -1,7 +1,9 @@
+
+
 <!-- TestNG ile toplu dosya calistirmak icin xml uzantili dosyalar kullaniriz
     xml dosyalari html kodlarina benzer sekilde yazilan
     xml kodlarindan olusur
-    Toplu calistirma icin ihtiyacimiz olan xml kodlari testNG.org sayfasinda bulabiliriz
+    Toplu calistirma icin ihtiyacimiz olan xml kodlari testNG.org sayfasinda bulabiliriz.
 
     Tum TestNG xml dosyalari
     <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > kodu ile baslamalidir.
