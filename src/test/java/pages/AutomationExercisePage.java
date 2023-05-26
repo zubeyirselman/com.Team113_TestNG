@@ -34,4 +34,16 @@ public class AutomationExercisePage {
 
     @FindBy(xpath = "//button[text()='4']")
     public WebElement sepettekiMiktar;
+
+    @FindBy(xpath = "//a[@href='/login']")
+    public WebElement slButonu;
+
+    @FindBy(xpath = "//input[@data-qa='signup-name']")
+    public WebElement kaydolIsimElementi;
+
+    @FindBy(xpath = "//input[@data-qa='signup-eamil']")
+    public WebElement kaydolMailElementi;
+
+    @FindBy(xpath = "//button[@data-qa='signup-button']")
+    public WebElement signupButonElementi;
 }
